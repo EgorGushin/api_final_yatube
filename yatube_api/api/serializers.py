@@ -7,6 +7,7 @@ from posts.models import Comment, Follow, Group, Post
 
 User = get_user_model()
 
+
 class GroupSerializer(serializers.ModelSerializer):
     class Meta:
         model = Group
